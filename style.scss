@@ -1,0 +1,15 @@
+.gameField{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  margin: 100px auto;
+}
+.gameField div {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
